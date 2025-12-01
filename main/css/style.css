@@ -1,0 +1,52 @@
+﻿.material-symbols-outlined {
+   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Swiper Customization */
+.swiper {
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 300px;
+   height: auto;
+   /* Highlight effect removed */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark-mode .card-title {
+    color: #ffffff;
+}
+
+body.dark-mode .text-muted {
+    color: #a0a0a0 !important;
+}
+
+body.dark-mode .btn-dark {
+    background-color: #333;
+    border-color: #444;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #444;
+    border-color: #555;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background-color: #555;
+}
+
